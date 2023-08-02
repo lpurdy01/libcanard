@@ -3,13 +3,14 @@
 This is a compact and simple driver for STM32 microcontrollers.
 It has no dependencies besides a tiny part of the standard C library,
 and can be used with virtually any operating system or on bare metal
-(so far it has been tested at least with ChibiOS).
+(so far it has been tested at least with ChibiOS and FreeRTOS).
 
 In theory, the entire family of STM32 should be supported by this driver,
 since they all share the same CAN controller IP known as bxCAN.
 So far this driver has been tested at least with the following MCU:
 
 * STM32F091
+* STM32F103
 * STM32F105 - both CAN1 and CAN2
 * STM32F446
 * STM32F303 - Only CAN1 verified
